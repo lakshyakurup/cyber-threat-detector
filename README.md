@@ -1,49 +1,46 @@
-# ☕ Cafe Finder App
+# Cafe Finder App
 
-> A sleek, high-performance web interface for discovering local cafes, remote workspace spots, and specialty coffee houses in real time.
-
----
-
-## 📌 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Architecture & Design Decisions](#-architecture--design-decisions)
-- [Tech Stack](#-tech-stack)
-- [File Structure](#-file-structure)
-- [Getting Started](#-getting-started)
-- [Live Demo](#-live-demo)
-- [Future Roadmap](#-future-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
+A lightweight web application designed to help users discover, search, and explore local cafes and workspace spots.
 
 ---
 
-## 📍 Overview
+## ☕ Features
 
-**Cafe Finder App** is a responsive, single-page web application designed to help coffee enthusiasts, students, and remote workers find local cafes tailored to their specific needs. Whether you are searching for high-speed Wi-Fi, accessible power outlets, quiet study environments, or specialty roasts, Cafe Finder delivers an intuitive UI to explore and filter nearby options.
-
-Built with performance and accessibility in mind, the application operates entirely on the client side with zero framework overhead, ensuring sub-second load times and minimal memory footprint across desktop and mobile devices.
-
----
-
-## ✨ Key Features
-
-### 🔍 Smart Search & Multi-Criteria Filtering
-- **Real-Time Text Search**: Instantly query cafe names, neighborhoods, or signature offerings with zero latency.
-- **Amenity Filters**: Toggle filters for essential workspace needs including high-speed Wi-Fi, abundant power sockets, outdoor seating, and noise levels.
-- **Dietary & Menu Options**: Quickly identify spots serving vegan, dairy-free, or specialty pour-over options.
-
-### 📱 Responsive & Intuitive User Interface
-- **Mobile-First Layout**: Fluid CSS Grid and Flexbox structure optimized for modern mobile displays, tablets, and wide desktop viewports.
-- **Interactive Detail Cards**: View cafe metrics at a glance, including overall rating, price tier (`$`, `$$`, `$$$`), distance, and live operating status (Open/Closed).
-- **Clean Aesthetic**: Modern typography, accessible color contrast ratios, and seamless visual feedback for hover and active states.
-
-### ⚡ Client-Side Architecture
-- **Zero External Dependencies**: Operates on native web APIs without bulky frameworks or external JavaScript libraries.
-- **Instant Dynamic Rendering**: Efficient DOM manipulating algorithms parse and update listings instantly upon user interaction.
-- **Offline Readiness**: Pre-configured layout structures that gracefully handle low-bandwidth scenarios or static local file execution.
+- **Spot Discovery**: Clean interface to browse through curated local cafe listings.
+- **Search & Filter**: Find cafes based on location, amenities, or preference.
+- **Responsive Layout**: Mobile-friendly design for browsing on the go.
 
 ---
 
-## 📐 Architecture & Design Decisions
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Deployment**: GitHub Pages
+
+---
+
+## 🚀 Quick Start
+
+Simply open `cafe_finder.html` directly in any web browser, or view the live deployment on [GitHub Pages](https://lakshyakurup.github.io/Cafe-Finder-App/).
+
+---
+
+## 📜 License
+
+Distributed under the [MIT License](LICENSE).
+
+---
+
+## 📊 Feature Breakdown & Capabilities
+
+| Module | Status | Description | Primary Benefit |
+| :--- | :---: | :--- | :--- |
+| **Search Engine** | Active | Instant client-side text filtering | Zero page reloads required when typing queries |
+| **Amenity Toggles** | Active | Quick filtering for Wi-Fi, outlets, and quiet spaces | Saves time for remote workers and students |
+| **Responsive Grid** | Active | Dynamic flex and grid system | Adapts seamlessly from ultra-wide monitors to mobile devices |
+| **Geolocation** | Planned | Auto-detect current user position | Sorts listings by exact physical proximity |
+| **Dark Theme** | Planned | Native CSS custom variable toggling | High-contrast viewing during late-night study sessions |
+
+---
+
+## 📐 Application Architecture & Data Flow
