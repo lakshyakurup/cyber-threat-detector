@@ -31,16 +31,59 @@ Distributed under the [MIT License](LICENSE).
 
 ---
 
-## 📊 Feature Breakdown & Capabilities
+# 📖 About The Project
 
-| Module | Status | Description | Primary Benefit |
-| :--- | :---: | :--- | :--- |
-| **Search Engine** | Active | Instant client-side text filtering | Zero page reloads required when typing queries |
-| **Amenity Toggles** | Active | Quick filtering for Wi-Fi, outlets, and quiet spaces | Saves time for remote workers and students |
-| **Responsive Grid** | Active | Dynamic flex and grid system | Adapts seamlessly from ultra-wide monitors to mobile devices |
-| **Geolocation** | Planned | Auto-detect current user position | Sorts listings by exact physical proximity |
-| **Dark Theme** | Planned | Native CSS custom variable toggling | High-contrast viewing during late-night study sessions |
+**Cafe Finder App** is a simple and lightweight web-based cafe discovery platform built to make finding suitable cafes and workspace spots easier.
+
+The project focuses on providing a clean browsing experience without requiring users to install a dedicated application.
+
+Users can explore available locations, search through cafe listings, and identify places that match their requirements.
+
+The application is designed with simplicity, accessibility, and responsive usability in mind.
 
 ---
 
-## 📐 Application Architecture & Data Flow
+# 🎯 Project Goals
+
+The main goals of this project are:
+
+- Create a simple cafe discovery experience.
+- Provide users with an easy way to explore local spots.
+- Make searching through cafe listings quick and intuitive.
+- Provide a responsive interface across different screen sizes.
+- Keep the application lightweight and easy to run.
+- Demonstrate frontend development fundamentals.
+- Build a project that can be easily deployed using GitHub Pages.
+- Create a foundation that can be extended with more advanced functionality in the future.
+
+---
+
+# ✨ Highlights
+
+| Feature | Description |
+|--------|-------------|
+| ☕ Cafe Discovery | Browse available cafes and workspace locations |
+| 🔎 Search | Quickly find relevant cafe listings |
+| 🎛️ Filtering | Narrow down locations based on available preferences |
+| 📱 Responsive Design | Designed to work across desktop and mobile screens |
+| ⚡ Lightweight | No heavy framework or backend required |
+| 🌐 Web-Based | Accessible directly from a browser |
+| 🚀 Easy Deployment | Can be hosted using GitHub Pages |
+| 🧩 Extensible | Structure can be expanded with additional functionality |
+
+---
+
+# 🖥️ User Experience
+
+The application is designed around a straightforward workflow:
+
+```text
+Open Cafe Finder
+       ↓
+Browse Available Spots
+       ↓
+Search / Filter
+       ↓
+Explore Cafe Information
+       ↓
+Find a Suitable Location
