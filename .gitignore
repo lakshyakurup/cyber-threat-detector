@@ -4,3 +4,23 @@ __pycache__/
 venv/
 data/
 models/*.pkl
+
+# Archives & Packages
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# Python Cache & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
