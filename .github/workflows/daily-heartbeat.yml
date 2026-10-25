@@ -1,0 +1,30 @@
+name: Daily Contribution Heartbeat
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Configure Git Identity
+        run: |
+          git config --global user.name "lakshyakurup"
+          git config --global user.email "lakshyakurup@gmail.com"
+
+      - name: Update Status Timestamp
+        run: |
+          echo "Last system heartbeat check: $(date -u)" > STATUS.md
+          git add STATUS.md
+          git commit -m "chore(heartbeat): automated status check update [skip ci]" || exit 0
+
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
